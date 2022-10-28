@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+  
+  
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background-color:aliceblue;
+  }
+  .flex-container{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 2em;
+      margin: auto;
+      height: 100h;
+  }
+  .flex-item{
+      text-align: left;
+      height: 80%;
+      padding: 30px;
+      
+  }
+  h2{
+      margin:20px 0px 20px;
+  }
+  .sedan{
+      background-color: hsl(31, 77%, 52%);
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  .suvs{
+      background-color: hsl(184, 100%, 22%);
+      font-family: 'Big Shoulders Display', cursive;
+  }
+  .luxury{
+      background-color: hsl(179, 100%, 13%);
+      font-family: 'Big Shoulders Display', cursive;
+  }
+  h2, p{
+      color: hsla(0, 0%, 100%, 0.75);
+      opacity: 0.9;
+  }
+  p{
+      font-size: 15px;
+  }
+  
+  .sedan button{
+      padding:10px;
+      margin: 150px 20px;
+      border-radius: 30px;
+      border: none;
+      color: hsl(31, 77%, 52%);
+      background-color: white;
+      cursor: pointer;
+  
+  }
+  .suvs button{
+      padding:10px;
+      margin: 150px 20px;
+      border-radius: 30px;
+      border: none;
+      color: hsl(184, 100%, 22%);
+      background-color: white;
+      cursor: pointer;
+  
+  
+  }
+  .luxury button{
+      padding:10px;
+      margin: 150px 20px;
+      border-radius: 30px;
+      border: none;
+      color:hsl(179, 100%, 13%) ;
+      background-color: white;
+      cursor: pointer;
+  
+  
+  }
+  
+  
+  
+  /* GRID design */
+  .grid-body{
+      display: flex;
+      height: 100vh;
+      place-items: center;
+      justify-content: center;
+  }
+  .grid-container{
+      display: grid;
+      grid-template-areas:
+      "a a a a b b "
+      "a a a a b b "
+      "c c c d d d " 
+      "c c c e e e ";
+      gap: 10px;
+      width: 70%;
+      
+  }
+  main div{
+      padding: 2em;
+      text-align: center;
+  }
+  .item-a{
+      background-color: rgb(248, 51, 16);
+      grid-area: a;
+  }
+  .item-b{
+      background-color: orange;
+      grid-area: b;
+  
+  }
+  .item-c{
+      background-color: rgb(39, 179, 39);
+      grid-area: c;
+  
+  }
+  .item-d{
+      background-color: rgb(41, 226, 226);
+      grid-area: d;
+  
+  }
+  .item-e{
+      background-color: lightcoral;
+      grid-area: e;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
